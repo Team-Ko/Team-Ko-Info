@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Header from "./components/Header";
+import Content from "./components/Content";
 
 const Container = styled.div`
   margin: 0 auto;
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <Container>
       <Header />
+      <Content />
     </Container>
   );
 };

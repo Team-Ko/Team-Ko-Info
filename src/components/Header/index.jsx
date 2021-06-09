@@ -37,7 +37,7 @@ const TitleBox = styled.div`
 const Header = () => {
   return (
     <HeaderContainer>
-      <Blank h={200}></Blank>
+      <Blank h={200}/>
       <Typist>
         <TitleBox>
           <Title>Team Ko</Title>
