@@ -30,7 +30,7 @@ const UnderBar = styled.div`
   margin: 0 auto;
 `;
 
-const Introduction = styled.div`
+const Develop = styled.div`
   color: white;
   font-size: ${(props) => props.size}px;
   margin: 0 auto;
@@ -50,11 +50,11 @@ const Content = () => {
     <Sub size = {32}>우리가 하는 일들</Sub>
     <Blank h={300} />
     <Title size = {48}>우리의 개발환경은 이렇습니다</Title>
-    <Introduction size = {24}>
+    <Develop size = {24}>
       <li>소스는 내부 GitLab 저장소를 사용합니다.</li>
       <li>프로젝트 관리는 Notion을 통해 관리합니다.</li>
       <li>같은 내용을 정할 것</li>
-    </Introduction>
+    </Develop>
   </InnerContainer>
   );
 };
