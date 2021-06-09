@@ -55,6 +55,8 @@ const Content = () => {
       <li>프로젝트 관리는 Notion을 통해 관리합니다.</li>
       <li>같은 내용을 정할 것</li>
     </Develop>
+    <Blank h={100} />
+    <Title size = {44}>Team-Ko의 멤버를 소개합니다</Title>
   </InnerContainer>
   );
 };
