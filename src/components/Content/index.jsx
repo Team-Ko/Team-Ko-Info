@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-const InnerContainer = styled.div`
+const Container = styled.div`
     width: 100%;
-    height: 1000px;
     background-color: black;
 `;
 
@@ -44,7 +43,7 @@ const Blank = styled.div`
 
 const Content = () => {
   return (
-  <InnerContainer>
+  <Container>
     <Title size = {42}>Team-Ko를 소개합니다</Title>
     <UnderBar />
     <Sub size = {32}>우리가 하는 일들</Sub>
@@ -57,7 +56,8 @@ const Content = () => {
     </Develop>
     <Blank h={100} />
     <Title size = {44}>Team-Ko의 멤버를 소개합니다</Title>
-  </InnerContainer>
+    <Blank h={30} />
+  </Container>
   );
 };
 
